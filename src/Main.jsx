@@ -13,6 +13,16 @@ const questionData = [
     ],
   },
   {
+    question:
+      'Which of the following is the correct way to link an external CSS file to an HTML document?',
+    answers: [
+      { text: '<link rel="style.css" href="stylesheet">', isCorrect: false },
+      { text: '<link rel="stylesheet" href="style.css">', isCorrect: true },
+      { text: '<link src="style.js" type="text/html">', isCorrect: false },
+      { text: ' <link type="text/js" alt="style.html">', isCorrect: false },
+    ],
+  },
+  {
     question: 'Which country is the largest in the world?',
     answers: [
       { text: 'China', isCorrect: false },
@@ -28,6 +38,66 @@ const questionData = [
       { text: 'Python', isCorrect: true },
       { text: 'C#', isCorrect: false },
       { text: 'JavaScript', isCorrect: false },
+    ],
+  },
+  {
+    question:
+      'Which of the following is the correct syntax for creating a new variable in JavaScript?',
+    answers: [
+      { text: 'let = myVariable', isCorrect: false },
+      { text: 'myVariable = let', isCorrect: false },
+      { text: 'let myVariable', isCorrect: true },
+      { text: 'func myVariable', isCorrect: false },
+    ],
+  },
+  {
+    question: 'What does the acronym "SEO" stand for in web development?',
+    answers: [
+      { text: 'System Error Occurrence', isCorrect: false },
+      { text: 'Server Environment Optimization', isCorrect: false },
+      { text: 'Secure Encryption Online', isCorrect: false },
+      { text: 'Search Engine Optimization', isCorrect: true },
+    ],
+  },
+  {
+    question:
+      'Which of the following is a commonly used version control system in web development?',
+    answers: [
+      { text: 'SVN', isCorrect: false },
+      { text: 'Git', isCorrect: true },
+      { text: 'Mercurial', isCorrect: false },
+      { text: 'All of the above', isCorrect: false },
+    ],
+  },
+  {
+    question: 'Which of the following is not a JavaScript data type?',
+    answers: [
+      { text: 'Character', isCorrect: true },
+      { text: 'Number', isCorrect: false },
+      { text: 'String', isCorrect: false },
+      { text: 'Boolean', isCorrect: false },
+    ],
+  },
+  {
+    question:
+      'What is the difference between "==" and "===" operators in JavaScript?',
+    answers: [
+      {
+        text: '"==" compares only values, while "===" compares values and types.',
+        isCorrect: true,
+      },
+      {
+        text: '"==" compares values and types, while "===" compares only values.',
+        isCorrect: false,
+      },
+      {
+        text: '"==" and "===" are interchangeable and can be used interchangeably.',
+        isCorrect: false,
+      },
+      {
+        text: '"==" and "===" are not valid operators in JavaScript.',
+        isCorrect: false,
+      },
     ],
   },
 ];
